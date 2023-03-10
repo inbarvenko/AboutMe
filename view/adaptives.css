@@ -1,0 +1,110 @@
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 375px) {
+    .header__section {
+        display: none;
+    }
+
+    .first-section__header{
+        margin: 0;
+
+        justify-content: start;
+    }
+
+    .header__logo {
+        margin-left: 19px;
+    }
+
+    .first-section{ 
+        height: 782px;
+    }
+
+    .first-section__main{
+        flex-direction: column;
+    }
+
+    .text {
+        line-height: 120%;
+
+        text-align: center;
+    }
+
+    .--second-text {
+        width: calc(100% - 54px);
+    }
+
+    .text-section__first-text{
+        font-size: 36px;
+    }
+
+    .main__computer {
+        width: 298px;
+        padding-right: 0;
+    }
+
+    .main__text-section {
+        align-items: center;
+    }
+
+    .works {
+        height: 477px;
+    }
+
+    .works__section {
+        width: 100%;
+    }
+
+    .works-section__items {
+        margin-top: 45px;
+        margin-bottom: 45px;
+    }
+
+    .works-text__number {
+        text-align: start;
+    }
+
+    .my-skills {
+        height: 815px;
+
+        flex-direction: column-reverse;
+    }
+
+    .my-skills__photo{
+        width: 339px;
+        height: 275px;
+    }
+
+    .my-skills__text {
+        margin-top: 98px;
+
+        padding-right: 0;
+    }
+
+    .my-skills-text-items-name__rectangle1 {
+        width: 339px;
+    }
+
+    .my-skills-text-items-name__rectangle2 {
+        width: 266px;
+    }
+
+    .my-skills-text-items__name {
+        text-align: start;
+    }
+
+    .how-i-work__video {
+        width: 339px;
+        height: 185px;
+    }
+
+    .how-i-work {
+        height: 596px;
+    }
+
+    .video__play {
+        width: 75px;
+    }
+}
+
