@@ -311,5 +311,45 @@ li {
 }
 
 .look-section {
-    width: 1016px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    margin-top: 28px;
+    margin-bottom: 28px;
+    padding: 0;
+}
+
+.look-section__item {
+    margin-bottom: -5px;
+    padding: 0;
+}
+
+.look-section-item__picture {
+    width: 480px;
+    height: 480px;
+}
+
+.look-section-item__span {
+    width: 480px;
+    height: 480px;
+  
+    position: absolute;
+
+    background: rgba(52, 84, 122, 0.8);
+    opacity: 0;
+    transition: opacity .4s linear;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.look-section-item__span:hover {
+    opacity: 1;
+}
+
+.look-section-item-span__view {
+    width: 100px;
+    height: 100px;
 }
