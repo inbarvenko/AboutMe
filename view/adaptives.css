@@ -108,13 +108,13 @@
     }
 
     .look-section-item__picture {
-        width: 187px;
-        height: 187px;
+        width: calc(100vw / 2);
+        height: calc(100vw / 2);
     }
 
     .look-section-item__span {
-        width: 187px;
-        height: 187px;
+        width: calc(100vw / 2);
+        height: calc(100vw / 2);
     }
 
     .look-section-item-span__view {
