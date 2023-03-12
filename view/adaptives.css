@@ -126,5 +126,56 @@
         margin-top: 34px;
         margin-bottom: 34px;
     }
+
+    .form {
+        height: 830px;
+    }
+
+    .form__section {
+        width: calc(100vw - 52px);
+
+        justify-content: space-evenly;
+        align-items: stretch;
+    }
+
+    .form-section__first-section {
+        flex-direction: column;
+    }
+
+    .--form {
+        width: calc(100vw - 52px);
+    }
+
+    .first-section__first {
+        width: 100%;
+    }
+
+    .form-section__second {
+        width: 100%;
+    }
+
+    .footer__links {
+        width: 100%;
+    }
+
+    .footer {
+        height: 210px;
+
+        flex-direction: column;
+    }
+
+    .footer__name {
+        margin-top: 50px;
+    }
+
+    .footer__links {
+        width: 175px;
+        margin-bottom: 48px;
+        margin-top: 39px;
+    }
+
+    .form-section__button {
+        margin-bottom: 70px;
+    }
 }
 

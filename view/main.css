@@ -359,7 +359,7 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .form__section {
@@ -370,12 +370,12 @@ li {
 }
 
 .form__first-text {
-    padding-top: 100px;
-
     font-weight: 500;
     font-size: 32px;
     line-height: 38px;
     text-align: center;
+
+    margin-top:70px;
 }
 
 .form-section__first-section {
@@ -396,7 +396,7 @@ li {
 
 .form-section__second {
     width: 520px;
-    height: 175px;
+    height: 155px;
     
     resize: none;
 
@@ -412,13 +412,20 @@ li {
 
     color: #5F5D5D;
 
+    text-align: start;
+
+}
+
+.--form-text::placeholder {
     padding-left: 20px;
+
+    text-align: start;
 }
 
 .form-section__button {
     margin-top: 50px;
 
-    margin-bottom: 100px;
+    margin-bottom: 90px;
 }
 
 .footer {
