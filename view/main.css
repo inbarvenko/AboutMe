@@ -4,10 +4,15 @@
 * {
     margin: 0;
     padding: 0;
+
 }
 
 html {
-    width: 100%;
+    width: 100vw;
+    max-width: 100%;
+
+    overflow-x: hidden;
+
 }
 
 .--second-text {
@@ -80,7 +85,7 @@ li {
 
     width: 100%;
     margin: 0 auto;
-    padding: 0 10px;
+    padding: 0;
 }
 
 .header__logo{
@@ -124,7 +129,8 @@ li {
 }
 
 .main__computer {
-    width: 357px;
+    max-width: 357px;
+    max-height: 234px;
     padding-right: 131px;
 }
 
@@ -207,17 +213,13 @@ li {
 
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content:space-evenly;
     align-items: center;
 }
 
 .my-skills__photo{
-    width: 555px;
-    height: 450px;
-}
-
-.my-skills__text {
-    padding-right: 150px;
+    max-width: 555px;
+    max-height: 450px;
 }
 
 .my-skills-text__title {
@@ -272,8 +274,8 @@ li {
 }
 
 .how-i-work__video {
-    width: 1110px;
-    height: 600px;
+    width: 70vw;
+    height: 38vw;
 
     background: url(../img/video_back.png) no-repeat;
     background-size: 100%;
@@ -285,7 +287,7 @@ li {
     position: absolute;
     z-index: 2;
 
-    width: 100px;
+    width: 5vw;
 
     align-self: center;
 }
