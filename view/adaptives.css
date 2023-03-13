@@ -11,6 +11,7 @@
 
     .header__logo {
         margin-left: 22px;
+        margin-top: 33px;
     }
 
     .first-section{ 
@@ -19,6 +20,7 @@
 
     .first-section__main{
         flex-direction: column;
+        padding-top: 72px;
     }
 
     .text {
@@ -35,6 +37,12 @@
 
     .text-section__first-text{
         font-size: 36px;
+
+        padding-bottom: 30px;
+    }
+
+    .text-section__second-text {
+        padding-top: 10px;
     }
 
     .main__computer {
@@ -47,11 +55,13 @@
 
     .main__text-section {
         align-items: center;
+        padding-top: 30px;
+        padding-right: 0;
     }
 
     .works {        
         padding-top: 40px;
-        padding-bottom: 40px;
+        padding-bottom: 20px;
     }
 
     .works__section {
@@ -68,19 +78,20 @@
         text-align: start;
     }
 
-    .my-skills {
-        height: 815px;
+    .about-me {
+        padding-top: 90px;
+    }
 
+    .my-skills {
         flex-direction: column-reverse;
         justify-content: flex-end;
 
+        padding-top: 90px;
     }
 
     .my-skills__photo{
         width: 90vw;
         height: 72vw;
-
-        padding-top: 80px;
     }
 
     .my-skills__text {
@@ -101,6 +112,8 @@
 
     .my-skills-text__title {
         text-align: center;
+
+        margin-bottom: 35px;
     }
 
     .how-i-work__video {
@@ -109,7 +122,12 @@
     }
 
     .how-i-work {
-        height: 596px;
+        
+    }
+
+    .how-i-work__text {
+        margin-top: 60px;
+        margin-bottom: 30px;
     }
 
     .video__play {
@@ -117,6 +135,10 @@
 
         max-width: 75px;
         max-height: 75px;
+    }
+
+    .look-section__item {
+        height: calc(100vw / 2);
     }
 
     .look-section-item__picture {
@@ -166,12 +188,12 @@
         order: 8;
     }
 
-    .form {
-        height: 830px;
+    .form__first-text {
+        margin-top: 90px;
     }
 
     .form__section {
-        width: calc(100vw - 52px);
+        width: calc(100vw - 32px);
 
         justify-content: space-evenly;
         align-items: stretch;
@@ -182,7 +204,7 @@
     }
 
     .--form {
-        width: calc(100vw - 52px);
+        width: calc(100vw - 32px);
     }
 
     .first-section__first {
@@ -204,17 +226,21 @@
     }
 
     .footer__name {
-        margin-top: 50px;
+        margin-top: 60px;
     }
 
     .footer__links {
         width: 175px;
         margin-bottom: 48px;
-        margin-top: 39px;
+        margin-top: 30px;
     }
 
     .form-section__button {
         margin-bottom: 70px;
+    }
+
+    .footer-name__first {
+        margin-bottom: 10px;
     }
 }
 

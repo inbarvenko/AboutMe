@@ -7,18 +7,11 @@
 
 }
 
-/* BODY {
-    opacity: .5;
-} */
-
 html {
-    /* background: url(/AboutMe/img/check-desk.png) 50% 0 no-repeat; */
-
     width: 100vw;
     max-width: 100%;
 
     overflow-x: hidden;
-
 }
 
 section {
@@ -241,7 +234,8 @@ li {
 }
 
 .my-skills {
-    height: 653px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 
     display: flex;
     flex-direction: row;
@@ -296,13 +290,13 @@ li {
 }
 
 .how-i-work {
-    height: 1000px;
-
     background: #EEEFF1;
 
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    padding-bottom: 100px;
 }
 
 .how-i-work__video {
