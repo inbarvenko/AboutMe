@@ -11,7 +11,7 @@
     }
 
     .header__logo {
-        margin-left: 40px;
+        margin-left: 22px;
     }
 
     .first-section{ 
@@ -30,6 +30,8 @@
 
     .--second-text {
         width: calc(100% - 54px);
+
+        text-align: center;
     }
 
     .text-section__first-text{
@@ -101,7 +103,10 @@
     }
 
     .video__play {
-        width: 10vw;
+        width: 20vw;
+
+        max-width: 75px;
+        max-height: 75px;
     }
 
     .look-section-item__picture {
