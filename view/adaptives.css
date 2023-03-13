@@ -40,18 +40,23 @@
     .main__computer {
         width: 70vw;
         padding-right: 0;
+
+        min-width: 298px;
+        min-height: 195px;
     }
 
     .main__text-section {
         align-items: center;
     }
 
-    .works {
-        height: 477px;
+    .works {        
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 
     .works__section {
         width: 100%;
+        justify-content: space-evenly;
     }
 
     .works-section__items {
@@ -67,6 +72,7 @@
         height: 815px;
 
         flex-direction: column-reverse;
+        justify-content: flex-end;
 
     }
 
@@ -74,6 +80,7 @@
         width: 90vw;
         height: 72vw;
 
+        padding-top: 80px;
     }
 
     .my-skills__text {
@@ -90,6 +97,10 @@
 
     .my-skills-text-items__name {
         text-align: start;
+    }
+
+    .my-skills-text__title {
+        text-align: center;
     }
 
     .how-i-work__video {

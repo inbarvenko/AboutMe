@@ -7,12 +7,24 @@
 
 }
 
+/* BODY {
+    opacity: .5;
+} */
+
 html {
+    /* background: url(/AboutMe/img/check-desk.png) 50% 0 no-repeat; */
+
     width: 100vw;
     max-width: 100%;
 
     overflow-x: hidden;
 
+}
+
+section {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .--second-text {
@@ -54,6 +66,8 @@ li {
     text-transform: uppercase;
 
     color: #FFFFFF;
+
+    border: none;
 }
 
 .text {
@@ -62,24 +76,33 @@ li {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    white-space:inherit;
+}
+
+.--bck-white {
+    background: #F9F9F9;
+}
+
+.--bck-grey {
+    background: #EEEFF1;
+}
+
+.--bck-blue {
+    background: #34547A;
 }
 
 .first-section{
-    height: 700px;
-    background: #EEEFF1;
-
     display: flex;
     flex-direction: column;
 
 }
 
 .first-section__main{
+    padding-top: 82px;
+    padding-bottom: 144px;
+    
     display: flex;
     align-items: center;
-    justify-content: center;
-
-    flex-grow: 1;
+    justify-content: right;
 
 }
 
@@ -88,21 +111,20 @@ li {
     flex-direction: row;
     align-items: center;
 
-    justify-content: space-around;
+    justify-content: space-between;
 
     width: 100%;
-    margin: 0 auto;
-    padding: 0;
 }
 
 .header__logo{
-    margin-top: 59px;
+    margin-top: 53px;
+    margin-left: 14px;
 
     justify-self: center;
 }
 
 .header__section{
-    margin-top: 79px;
+    margin-top: 50px;
     list-style-type: none;
 
     display: flex;
@@ -129,16 +151,16 @@ li {
 .main__text-section {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
 
-    padding-top: 10px;
-    height: 350px;
+    padding-top: 47px;
+    padding-right: 20px;
 }
 
 .main__computer {
     max-width: 357px;
     max-height: 234px;
-    padding-right: 131px;
+    padding-right: 126px;
 }
 
 .text-section__first-text{
@@ -146,16 +168,22 @@ li {
     font-size: 48px;
     line-height: 79px;
 
+    padding-bottom: 50px;
+
     color: #000000;
 }
 
 .text-section__second-text {
     text-align: start;
+    padding-bottom: 30px;
+
+    white-space: pre-line;
 }
 
 .about-me{
-    height: 366px;
+    padding-top: 120px;
     margin: 0 auto;
+    padding-bottom: 80px;
 
     display: flex;
     flex-direction: column;
@@ -164,26 +192,28 @@ li {
 }
 
 .about-me__first-text {
-    padding-bottom: 50px;
+    padding-bottom: 42px;
 }
 
 .works {
-    background-color: #34547A;
+    height: fit-content;
 
-    height: 250px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 
     display: flex;
     align-content: center;
     justify-content: center;
-    flex-wrap: wrap;
+
+    margin: auto;
 
 }
 
 .works__section {
-    width: 80%;
+    width: 97%;
 
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -215,7 +245,7 @@ li {
 
     display: flex;
     flex-direction: row;
-    justify-content:space-evenly;
+    justify-content:space-between;
     align-items: center;
 }
 
@@ -224,7 +254,12 @@ li {
     max-height: 450px;
 }
 
+.my-skills__text {
+    padding-top: 100px;
+}
+
 .my-skills-text__title {
+    text-align: start;
     margin-bottom: 50px;
 }
 
@@ -268,8 +303,6 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    margin: 0;
 }
 
 .how-i-work__video {
@@ -306,17 +339,22 @@ li {
 }
 
 .look-section {
+    max-width: none;
+
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    
+
+    margin: 0;    
     margin-top: 28px;
     margin-bottom: 28px;
     padding: 0;
+
+
 }
 
 .look-section__item {
-    margin-bottom: -5px;
+    height: calc(100vw / 4);
     padding: 0;
 }
 
@@ -377,9 +415,8 @@ li {
 }
 
 .form {
-    margin-top: 28px;
+    margin-top: 21px;
 
-    height: 762px;
     background-color: #EEEFF1;
 
     display: flex;
@@ -389,6 +426,8 @@ li {
 }
 
 .form__section {
+    padding-top: 60px;
+
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -396,7 +435,8 @@ li {
 }
 
 .form__first-text {
-    margin-top:70px;
+    margin-top:100px;
+    padding-bottom: 30px;
 }
 
 .form-section__first-section {
@@ -444,6 +484,9 @@ li {
 }
 
 .form-section__button {
+    width: 190px;
+    height: 55px;
+
     margin-top: 50px;
 
     margin-bottom: 90px;
@@ -457,6 +500,8 @@ li {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+
+    padding-top: 20px;
 }
 
 .footer__links {
