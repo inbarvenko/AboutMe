@@ -242,5 +242,11 @@
     .footer-name__first {
         margin-bottom: 10px;
     }
+
+    .--form-text {
+        text-align: start;
+
+        padding-left: 5px;
+    }
 }
 
