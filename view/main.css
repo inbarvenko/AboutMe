@@ -7,7 +7,13 @@
 
 }
 
+body {
+    opacity: .5;
+}
+
 html {
+    background: url(/AboutMe/img/check-desk.png);
+
     width: 100vw;
     max-width: 100%;
 
@@ -15,7 +21,7 @@ html {
 }
 
 section {
-    max-width: 1140px;
+    max-width: 1150px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -90,7 +96,7 @@ li {
 }
 
 .first-section__main{
-    padding-top: 82px;
+    padding-top: 110px;
     padding-bottom: 144px;
     
     display: flex;
@@ -100,6 +106,8 @@ li {
 }
 
 .first-section__header{
+    padding-top: 57px;
+
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -110,14 +118,12 @@ li {
 }
 
 .header__logo{
-    margin-top: 53px;
     margin-left: 14px;
 
     justify-self: center;
 }
 
 .header__section{
-    margin-top: 50px;
     list-style-type: none;
 
     display: flex;
@@ -132,7 +138,7 @@ li {
     text-transform: uppercase;
     letter-spacing: 0.1em;
 
-    margin: 21px;
+    margin: 0 21px 0 21px;
 }
 
 .header-section__item:hover {
@@ -146,7 +152,7 @@ li {
     flex-direction: column;
     justify-content: center;
 
-    padding-top: 47px;
+    padding-top: 27px;
     padding-right: 20px;
 }
 
@@ -161,14 +167,14 @@ li {
     font-size: 48px;
     line-height: 79px;
 
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 
     color: #000000;
 }
 
 .text-section__second-text {
     text-align: start;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 
     white-space: pre-line;
 }
@@ -185,7 +191,7 @@ li {
 }
 
 .about-me__first-text {
-    padding-bottom: 42px;
+    padding-bottom: 50px;
 }
 
 .works {
@@ -409,8 +415,6 @@ li {
 }
 
 .form {
-    margin-top: 21px;
-
     background-color: #EEEFF1;
 
     display: flex;
@@ -430,7 +434,7 @@ li {
 
 .form__first-text {
     margin-top:100px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 .form-section__first-section {
