@@ -487,7 +487,6 @@ li {
 }
 
 .footer {
-    height: 151px;
     background: #34547A;
 
     display: flex;
@@ -495,7 +494,8 @@ li {
     justify-content: space-around;
     align-items: center;
 
-    padding-top: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .footer__links {
