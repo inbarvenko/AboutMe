@@ -11,11 +11,11 @@
 
     .header__logo {
         margin-left: 22px;
-        margin-top: 33px;
+        padding-top: 33px;
     }
 
     .first-section{ 
-        height: 782px;
+        padding-bottom: 95px;
     }
 
     .first-section__main{
@@ -38,11 +38,7 @@
     .text-section__first-text{
         font-size: 36px;
 
-        padding-bottom: 30px;
-    }
-
-    .text-section__second-text {
-        padding-top: 10px;
+        padding-bottom: 40px;
     }
 
     .main__computer {
@@ -70,8 +66,8 @@
     }
 
     .works-section__items {
-        margin-top: 45px;
-        margin-bottom: 45px;
+        padding-top: 45px;
+        padding-bottom: 45px;
     }
 
     .works-text__number {
@@ -82,11 +78,16 @@
         padding-top: 90px;
     }
 
+    .about-me__first-text {
+        padding-bottom: 40px;
+    }
+
     .my-skills {
         flex-direction: column-reverse;
         justify-content: flex-end;
 
-        padding-top: 90px;
+        padding-top: 80px;
+        padding-bottom: 90px;
     }
 
     .my-skills__photo{
@@ -113,7 +114,7 @@
     .my-skills-text__title {
         text-align: center;
 
-        margin-bottom: 35px;
+        padding-bottom: 40px;
     }
 
     .how-i-work__video {
@@ -122,8 +123,8 @@
     }
 
     .how-i-work__text {
-        margin-top: 60px;
-        margin-bottom: 30px;
+        padding-top: 90px;
+        padding-bottom: 30px;
     }
 
     .video__play {
@@ -155,8 +156,8 @@
     }
 
     .look-section {
-        margin-top: 34px;
-        margin-bottom: 34px;
+        padding-top: 34px;
+        padding-bottom: 34px;
     }
 
     .look-section__1-item {
@@ -185,7 +186,7 @@
     }
 
     .form__first-text {
-        margin-top: 90px;
+        padding-top: 90px;
     }
 
     .form__section {
@@ -193,9 +194,11 @@
 
         justify-content: space-evenly;
         align-items: stretch;
+
+        padding-top: 49px;
     }
 
-    .form-section__first-section {
+    .form-section__input {
         flex-direction: column;
     }
 
@@ -203,12 +206,16 @@
         width: calc(100vw - 32px);
     }
 
-    .first-section__first {
+    .input__first {
         width: 100%;
     }
 
     .form-section__second {
         width: 100%;
+    }
+
+    .form-section__button {
+        margin-bottom: 70px;
     }
 
     .footer__links {
@@ -221,15 +228,11 @@
 
     .footer__links {
         width: 175px;
-        margin-top: 30px;
-    }
-
-    .form-section__button {
-        margin-bottom: 70px;
+        padding-top: 30px;
     }
 
     .footer-name__first {
-        margin-bottom: 10px;
+        padding-bottom: 10px;
     }
 
     .text__form {
